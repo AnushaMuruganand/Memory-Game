@@ -1,0 +1,87 @@
+#game {
+    border: none;
+    width: 1000px;
+    height: 700px;
+    margin: 10px;
+  }
+  
+  body {
+    text-align: center;
+    background-color: peachpuff;
+  }
+  
+  #heading {
+    color: purple;
+    font-family: "Work Sans", sans-serif;
+    font-size: 3rem;
+  }
+  
+  #gameStart {
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid rgb(247, 3, 210);
+  }
+  
+  #game div {
+    border: 1px solid black;
+    width: 15%;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+  }
+  
+  .displaySection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #current-score {
+    font-size: 1rem;
+    font-family: "Bungee", cursive;
+    color: #fb0505;
+    position: relative;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  #end {
+    display: none;
+  }
+  
+  #won {
+    font-size: 5rem;
+  }
+  
+  #score {
+    font-size: 25px;
+  }
+  
+  #end.game-over {
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    font-family: "Bungee", cursive;
+    text-align: center;
+  }
+  
+  .best-score {
+    font-family: "Bungee", cursive;
+    font-size: 15px;
+  }
+  
